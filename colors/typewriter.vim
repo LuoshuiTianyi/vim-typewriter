@@ -9,6 +9,7 @@ endif
 
 let g:colors_name = "typewriter"
 
+hi SpecialKey guifg=#eeeeee guibg=#9e9e9e gui=NONE
 hi NonText guifg=#808080
 hi Directory guifg=#606060
 hi Folded                                   guifg=#4e4e4e
