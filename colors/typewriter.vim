@@ -9,7 +9,10 @@ endif
 
 let g:colors_name = "typewriter"
 
-hi Cursor                                   guibg=#00BAFF
+hi NonText guifg=#808080
+hi Directory guifg=#606060
+hi Folded                                   guifg=#4e4e4e
+hi Cursor                                   guibg=#969696
 hi Normal          ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE
 hi Title           ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE term=bold   cterm=bold   gui=bold
 hi Special         ctermfg=234 ctermbg=NONE guifg=#1C1C1C guibg=NONE
@@ -34,6 +37,9 @@ hi CursorLineNR    ctermfg=232 ctermbg=255  guifg=#080808 term=bold cterm=bold g
 hi Search          ctermfg=235 ctermbg=153  guifg=#424242 guibg=#C1E7F4 cterm=bold gui=bold
 hi IncSearch       ctermfg=235 ctermbg=121  guifg=#424242 guibg=#C3E9DB cterm=bold gui=bold
 hi WildMenu        ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE
+hi TabLineFill     guifg=#eeeeee guibg=#eeeeee guisp=#cfc8f4
+hi TabLine         gui=NONE guifg=#9e9e9e guibg=#eeeeee guisp=#cfc8f4
+hi TabLineSel      guifg=#9e9e9e guibg=#dddddd guisp=#f9f5f5
 
 " Messages
 hi ModeMsg         ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE
@@ -144,3 +150,8 @@ hi goStructDef ctermfg=235 ctermbg=NONE guifg=#424242 cterm=italic gui=italic
 " NerdTree
 hi link NERDTreeDir Special
 hi NERDTreeFile     ctermfg=241
+
+hi User1 cterm=None guifg=#9e9e9e guibg=#4e4e4e
+hi User2 cterm=bold guifg=#9e9e9e guibg=#4e4e4e
+hi User3 cterm=None guifg=#9e9e9e guibg=#4e4e4e
+hi User4 cterm=None guifg=#9e9e9e guibg=#4e4e4e
